@@ -1,0 +1,26 @@
+{
+  "name": "funsee",
+  "version": "0.0.1",
+  "description": "FunSee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSecondLab/FunSee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSecondLab/FunSee/issues"
+  },
+  "homepage": "https://github.com/TheSecondLab/FunSee#readme",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-compress": "^2.0.0",
+    "koa-router": "^7.4.0",
+    "lodash.assign": "^4.2.0"
+  }
+}
