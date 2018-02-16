@@ -10,6 +10,9 @@
 module.exports = {
   port: 8080,
   middleware: [{
-    name: 'koa-compress'
+    name: require('koa-compress')
+  }],
+  customMiddleware: [{
+    name: 'serverSideRender'
   }]
 };
