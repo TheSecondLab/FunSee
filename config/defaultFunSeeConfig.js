@@ -1,5 +1,3 @@
-const path = require('path')
-
 /**
  * ------------------------------------------------------------------
  * middleware: [{
@@ -15,7 +13,7 @@ module.exports = {
     name: require('koa-compress')
   }, {
     name: require('koa-views'),
-    param: [path.resolve(__dirname, '../views'), {
+    param: [`${global.__ROOT_PATH__}/views`, {
       map: {
         html: 'ejs'
       }
