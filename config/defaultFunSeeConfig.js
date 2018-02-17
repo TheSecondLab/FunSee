@@ -1,3 +1,5 @@
+const path = require('path')
+
 /**
  * ------------------------------------------------------------------
  * middleware: [{
@@ -11,6 +13,13 @@ module.exports = {
   port: 8080,
   middleware: [{
     name: require('koa-compress')
+  }, {
+    name: require('koa-views'),
+    param: [path.resolve(__dirname, '../views'), {
+      map: {
+        html: 'ejs'
+      }
+    }]
   }],
   customMiddleware: [{
     name: 'serverSideRender'
