@@ -32,6 +32,10 @@ module.exports = {
         html: 'ejs'
       }
     }]
+  }, {
+    name: require('koa-static'),
+    desc: 'koa-static',
+    param: `${global.__ROOT_PATH__}/dist`
   }],
   customMiddleware: [{
     name: 'serverSideRender'
