@@ -27,7 +27,7 @@ module.exports = {
   }, {
     name: require('koa-views'),
     desc: 'koa-views',
-    param: [`${global.__ROOT_PATH__}/views`, {
+    param: [`${global.__ROOT_PATH__}/dist`, {
       map: {
         html: 'ejs'
       }
