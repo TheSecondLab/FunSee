@@ -29,8 +29,10 @@
     "lodash.merge": "^4.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
     "react-router-config": "^1.0.0-beta.4",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
