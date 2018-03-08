@@ -1,6 +1,6 @@
 {
   "name": "funsee",
-  "version": "0.0.15",
+  "version": "1.0.0",
   "description": "FunSee",
   "main": "index.js",
   "scripts": {
