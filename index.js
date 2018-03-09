@@ -1,4 +1,4 @@
-const FunSee = require('./lib/FunSee');
-const connect = require('./lib/tool/connector');
+const FunSee = require('./dist/FunSee');
+const connect = require('./dist/tool/connector');
 
 module.exports = { FunSee, connect };
