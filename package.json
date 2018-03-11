@@ -1,12 +1,14 @@
 {
   "name": "funsee",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "FunSee",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "./node_modules/.bin/eslint . --ext .js",
-    "eslint:fix": "./node_modules/.bin/eslint . --ext .js --fix"
+    "eslint:fix": "./node_modules/.bin/eslint . --ext .js --fix",
+    "babel": "rimraf ./dist && babel ./lib -d ./dist",
+    "prepublish": "npm run babel"
   },
   "repository": {
     "type": "git",
@@ -34,7 +36,13 @@
     "redux": "^3.7.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^4.18.1",
     "eslint-config-funsee": "0.0.2"
   },
