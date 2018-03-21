@@ -23,10 +23,12 @@ module.exports = {
   port: 8080,
   middleware: [{
     name: require('koa-compress'),
-    desc: 'koa-compress'
+    desc: 'koa-compress',
+    sort: '1000'
   }, {
     name: require('koa-views'),
     desc: 'koa-views',
+    sort: '2000',
     param: [`${global.__ROOT_PATH__}/dist`, {
       map: {
         html: 'ejs'
@@ -35,9 +37,11 @@ module.exports = {
   }, {
     name: require('koa-static'),
     desc: 'koa-static',
+    sort: '3000',
     param: `${global.__ROOT_PATH__}/dist`
   }],
   customMiddleware: [{
-    name: 'serverSideRender'
+    name: 'serverSideRender',
+    sort: '4000'
   }]
 };
