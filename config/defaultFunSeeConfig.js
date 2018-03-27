@@ -28,8 +28,8 @@ module.exports = {
   }, {
     name: require('koa-bodyparser'),
     desc: 'koa-bodyparser',
-    sort: '1001'
-  },{
+    sort: '1500'
+  }, {
     name: require('koa-views'),
     desc: 'koa-views',
     sort: '2000',
