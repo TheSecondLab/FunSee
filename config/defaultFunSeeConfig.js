@@ -26,6 +26,10 @@ module.exports = {
     desc: 'koa-compress',
     sort: '1000'
   }, {
+    name: require('koa-bodyparser'),
+    desc: 'koa-bodyparser',
+    sort: '1001'
+  },{
     name: require('koa-views'),
     desc: 'koa-views',
     sort: '2000',
