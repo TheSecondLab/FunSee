@@ -19,4 +19,4 @@ Redux-saga
 isomorphic-fetch
 
 ## 文档
-请查阅[FunSee Wiki](https://github.com/TheSecondLab/FunSee/wiki)
+请查阅[FunSee Wiki](https://github.com/TheSecondLab/FunSee/wiki)
