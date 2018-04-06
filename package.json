@@ -23,6 +23,7 @@
   "homepage": "https://github.com/TheSecondLab/FunSee#readme",
   "dependencies": {
     "ejs": "^2.5.7",
+    "funsee-logger": "^1.0.2",
     "koa": "^2.5.0",
     "koa-bodyparser": "^4.2.0",
     "koa-compress": "^2.0.0",

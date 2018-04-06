@@ -1,3 +1,5 @@
+const { FunSeeLoggerMid } = require('funsee-logger');
+
 /**
  *
  * config: {
@@ -28,6 +30,10 @@ module.exports = {
     name: require('koa-bodyparser'),
     desc: 'koa-bodyparser',
     sort: '1500'
+  }, {
+    name: FunSeeLoggerMid,
+    desc: 'FunSeeLogger',
+    sort: '1600'
   }, {
     name: require('koa-views'),
     desc: 'koa-views',
