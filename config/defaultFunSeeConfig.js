@@ -33,7 +33,8 @@ module.exports = {
   }, {
     name: FunSeeLoggerMid,
     desc: 'FunSeeLogger',
-    sort: '1600'
+    sort: '1600',
+    needApp: true
   }, {
     name: require('koa-views'),
     desc: 'koa-views',
